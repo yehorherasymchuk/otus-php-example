@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require __DIR__ .  '../bootstrap/app.php';
 
 use Otus\Example;
 

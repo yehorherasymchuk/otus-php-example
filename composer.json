@@ -3,17 +3,24 @@
     "authors": [
         {
             "name": "Yehor Herasymchuk",
-            "email": "alejandro.pryakhin@gmail.com"
+            "email": "egor.igorevich.uan@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-zip": "*",
         "monolog/monolog": "*",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "^5.0",
+        "vlucas/phpdotenv": "^5.1"
     },
     "autoload": {
         "psr-4": {
             "Otus\\" : "src/Otus"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
     }
 }
